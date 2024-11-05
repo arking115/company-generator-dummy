@@ -2,14 +2,13 @@ package com.example.company_dummy_backend;
 
 import com.example.company_dummy_backend.models.Company;
 import com.example.company_dummy_backend.models.User;
-import com.example.company_dummy_backend.models.repositories.CompanyRepository;
-import com.example.company_dummy_backend.models.repositories.UserRepository;
+import com.example.company_dummy_backend.repositories.CompanyRepository;
+import com.example.company_dummy_backend.repositories.UserRepository;
 import com.github.javafaker.Faker;
 import jakarta.transaction.Transactional;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.context.annotation.Bean;
 
 import java.util.ArrayList;
 import java.util.List;
